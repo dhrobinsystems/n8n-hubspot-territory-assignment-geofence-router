@@ -52,6 +52,8 @@ It then assigns the territory's owner in HubSpot, or reports what it would do.
 
 ## Architecture
 
+![n8n HubSpot Territory Assignment Geofence Router Workflow Overview](./workflow-overview.png)
+
 ```
  ┌──────────────────┐   ┌────────────────┐   ┌──────────────────────────────┐
  │ Webhook Trigger  │   │ Manual Trigger ├──►│ Sample Payload (manual test) │
